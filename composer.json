@@ -1,0 +1,24 @@
+{
+  "name": "widmogrod/php-exceptions",
+  "description": "Collection PHP exceptions grouped by functionality with nice ::assert API",
+  "require-dev": {
+    "phpspec/phpspec": "^2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Habryn",
+      "email": "widmogrod@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "phpspec run"
+  },
+  "autoload": {
+    "psr-0": {
+      "Exception": "src"
+    }
+  }
+}
