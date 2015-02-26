@@ -12,7 +12,7 @@ Use it, don't waste your development time for custom exceptions, use one of our 
 Tired of writing `is_array($value) || $value instanceof \Traversable`?
 Use predefined assertions and save your time, like so:
 
-```
+``` php
 use Exception\InvalidTypeException;
 
 function thatCanCantBeViolated($arrayOrTraversable) {
