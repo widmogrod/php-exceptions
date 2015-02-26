@@ -2,8 +2,25 @@
 ## Introduction
 
 How many times you throw exceptions in your code? and how many of them are repeating?
+
 This library collects general use cases and provide nice ::assert API.
-Us it, save time and make your code better place. 
+
+Use it, don't waste your development time for custom exceptions, use one of our exceptions classes.
+
+## Usage
+
+Tired of writing `is_array($value) || $value instanceof \Traversable`?
+Use predefined assertions and save your time, like so:
+
+```
+use Exception\InvalidTypeException;
+
+function thatCanCantBeViolated($arrayOrTraversable) {
+    InvalidTypeException::assertIsTraversable($arrayOrTraversable);
+    // do your regular work
+}
+
+```
 
 ## Installation
 
