@@ -30,8 +30,8 @@ composer require widmogrod/php-exceptions
 
 ## Development
 
-This repository fallows [semantic versioning concept](http://semver.org/). 
-If you want to contribute, just fallow [GitHub workflow](https://guides.github.com/introduction/flow/) and open pull request. 
+This repository follows [semantic versioning concept](http://semver.org/). 
+If you want to contribute, just follow [GitHub workflow](https://guides.github.com/introduction/flow/) and open a pull request. 
 
 ## Testing
 
